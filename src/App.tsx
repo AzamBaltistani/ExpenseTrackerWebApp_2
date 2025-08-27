@@ -8,9 +8,9 @@ function App() {
   return (
     <Routes>
       <Route index path="/ExpenseTrackerWebApp_2/" element={<Home />} />
-      <Route path="/incomes" element={<Incomes />} />
-      <Route path="/expenses" element={<Expenses />} />
-      <Route path="/search" element={<Search />} />
+      <Route path="/ExpenseTrackerWebApp_2/incomes" element={<Incomes />} />
+      <Route path="/ExpenseTrackerWebApp_2/expenses" element={<Expenses />} />
+      <Route path="/ExpenseTrackerWebApp_2/search" element={<Search />} />
     </Routes>
   );
 }
