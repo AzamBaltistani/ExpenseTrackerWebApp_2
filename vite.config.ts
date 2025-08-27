@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "ExpenseTrackerWebApp_2",
+  base: "/ExpenseTrackerWebApp_2/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
